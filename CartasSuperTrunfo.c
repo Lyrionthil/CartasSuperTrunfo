@@ -39,12 +39,25 @@ scanf("%d", &pontosTuristicos1);
 
   // Área para exibição dos dados da cidade
   printf("\nCarta 1:\n");
-  printf("Estado: %c\n", estado1);
+  printf("pais: %c\n", pais1);
   printf("Código: %s\n", codigo1);
-  printf("Nome da Cidade: %s\n", nomeCidade1);
+  printf("Nome do Pais: %s\n", nomePais1);
   printf("População: %d\n", populacao1);
   printf("Área: %.2f km²\n", area1);
   printf("PIB: %.2f bilhões de reais\n", pib1);
   printf("Número de Pontos Turísticos: %d\n", pontosTuristicos1);
+
+// Declaração das variáveis para a segunda carta
+char pais2;
+char codigo2[5];
+char nomePais2[50];
+int populacao2;
+float area2;
+float pib2;
+int pontosTuristicos2;
+
+
+
+
 return 0;
 } 
