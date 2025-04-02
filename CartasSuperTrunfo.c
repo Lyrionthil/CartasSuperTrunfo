@@ -37,7 +37,7 @@ scanf("%f", &pib1);
 printf("Digite o número de pontos turísticos do pais da carta 1: ");
 scanf("%d", &pontosTuristicos1);
 
-  // Área para exibição dos dados da cidade
+  // Área para exibição dos dados do Pais1
   printf("\nCarta 1:\n");
   printf("pais: %c\n", pais1);
   printf("Código: %s\n", codigo1);
@@ -56,8 +56,31 @@ float area2;
 float pib2;
 int pontosTuristicos2;
 
+// Leitura dos dados da segunda carta
+printf("Digite o pais da carta 2 (A-H): ");
+scanf(" %c", &pais2);
+printf("Digite o código da carta 2 (ex: B02): ");
+scanf("%s", codigo2);
+printf("Digite o nome do pais da carta 2: ");
+scanf(" %[^\n]", nomePais2);
+printf("Digite a população do pais da carta 2: ");
+scanf("%d", &populacao2);
+printf("Digite a área do pais da carta 2 (em km²): ");
+scanf("%f", &area2);
+printf("Digite o PIB do pais da carta 2 (em bilhões de reais): ");
+scanf("%f", &pib2);
+printf("Digite o número de pontos turísticos do pais da carta 2: ");
+scanf("%d", &pontosTuristicos2);
 
-
+// Área para exibição dos dados do Pais2
+printf("\nCarta 2:\n");
+printf("pais: %c\n", pais2);
+printf("Código: %s\n", codigo2);
+printf("Nome do Pais: %s\n", nomePais2);
+printf("População: %d\n", populacao2);
+printf("Área: %.2f km²\n", area2);
+printf("PIB: %.2f bilhões de reais\n", pib2);
+printf("Número de Pontos Turísticos: %d\n", pontosTuristicos2);
 
 return 0;
 } 
