@@ -14,7 +14,7 @@ int main() {
   float area1;
   float pib1;
   int pontosTuristicos1;
-  // Nível Aventureiro - Calculando Densidade Populacional e PIB per Capita
+  // Níve2 Aventureiro - Calculando Densidade Populacional e PIB per Capita
   float densidade1;
   float pibPerCapita1;
   
@@ -65,7 +65,9 @@ int populacao2;
 float area2;
 float pib2;
 int pontosTuristicos2;
-
+ // Níve2 Aventureiro - Calculando Densidade Populacional e PIB per Capita
+float densidade2;
+float pibPerCapita2;
 // Leitura dos dados da segunda carta
 printf("Digite o pais da carta 2 (A-H): ");
 scanf(" %c", &pais2);
