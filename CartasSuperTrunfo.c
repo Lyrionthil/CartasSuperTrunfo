@@ -84,6 +84,10 @@ scanf("%f", &pib2);
 printf("Digite o número de pontos turísticos do pais da carta 2: ");
 scanf("%d", &pontosTuristicos2);
 
+// Cálculos da carta 2
+densidade2 = populacao2 / area2;
+pibPerCapita2 = (pib2 * 1000000000) / populacao2;
+
 // Área para exibição dos dados do Pais2
 printf("\nCarta 2:\n");
 printf("pais: %c\n", pais2);
