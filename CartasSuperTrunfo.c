@@ -17,7 +17,8 @@ int main() {
   // Nível Aventureiro - Calculando Densidade Populacional e PIB per Capita
   float densidade1;
   float pibPerCapita1;
-  // Área para entrada de dados
+  
+  // Entrada de dados
   // Leitura dos dados da primeira carta
   printf("Digite o pais da carta 1 (A-H): ");
 scanf(" %c", &pais1);
@@ -44,7 +45,7 @@ scanf("%d", &pontosTuristicos1);
 densidade1 = populacao1 / area1;
 pibPerCapita1 = (pib1 * 1000000000) / populacao1;
 
-  // Área para exibição dos dados do Pais1
+  // Exibição dos dados do Pais1
   printf("\nCarta 1:\n");
   printf("pais: %c\n", pais1);
   printf("Código: %s\n", codigo1);
@@ -53,6 +54,8 @@ pibPerCapita1 = (pib1 * 1000000000) / populacao1;
   printf("Área: %.2f km²\n", area1);
   printf("PIB: %.2f bilhões de reais\n", pib1);
   printf("Número de Pontos Turísticos: %d\n", pontosTuristicos1);
+  printf("Densidade Populacional: %.2f hab/km²\n", densidade1);
+  printf("PIB per Capita: %.2f reais\n", pibPerCapita1);
 
 // Declaração das variáveis para a segunda carta
 char pais2;
