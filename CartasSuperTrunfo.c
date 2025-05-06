@@ -10,13 +10,11 @@ int main() {
   char pais1;
   char codigo1[5];
   char nomePais1[50];
-  int populacao1;
-  float area1;
-  float pib1;
+  unsigned long int populacao1;
+  float area1, pib1;
   int pontosTuristicos1;
-  // Níve2 Aventureiro - Calculando Densidade Populacional e PIB per Capita
-  float densidade1;
-  float pibPerCapita1;
+  float densidade1, pibPerCapita1, superPoder1;
+
   
   // Entrada de dados
   // Leitura dos dados da primeira carta
